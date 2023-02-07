@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let d=[1,2,3,4];
+  let sum = 0 ;
+  let dtb ;
+  function findAvg(d) {
+    for (let i = 0; i < d.length; i++) {
+      sum += d[i];
+    }
+    dtb = sum/d.length;
+    return dtb;
+  }
+  alert(findAvg(d));
+</script>
+</body>
+</html>
